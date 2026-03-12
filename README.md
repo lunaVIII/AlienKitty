@@ -1,42 +1,48 @@
-# AlienKitty
-👽 Alien Kitty
-
-Alien Kitty is a 2D arcade shooter built with Python and Pygame where a space-traveling kitty battles alien octopus enemies in deep space.
-
-The player controls a kitty spaceship that must defeat a powerful boss alien while avoiding enemy projectiles. The game features a boss enemy with orbiting minions, health systems, shooting mechanics, sound effects, and a restartable game loop.
-
-This project demonstrates object-oriented programming, sprite management, collision detection, and game loop design in Python.
+#👽 Alien Kitty
+<p align="center"> A 2D arcade shooter built with <b>Python</b> and <b>Pygame</b> </p> <p align="center">
 
 
-🎮 Gameplay
-
-In Alien Kitty, the player controls a kitty spaceship positioned at the bottom of the screen.
-
-Your objective is to:
-
-Move left and right to dodge enemy attacks
-
-Shoot bullets to damage alien enemies
-
-Defeat the boss octopus alien
-
-Avoid enemy projectiles
-
-Survive until the boss is destroyed
-
-If the kitty loses all health, the game ends. If the boss alien is defeated, you win.
 
 
-🕹 Controls
+
+
+</p>
+
+Alien Kitty is a 2D arcade-style shooter where the player controls a space-traveling kitty fighting alien octopus enemies. The goal is to defeat the alien boss while avoiding incoming enemy attacks.
+
+---
+
+#🎮 Gameplay
+
+You control a kitty spaceship positioned at the bottom of the screen.
+
+Your mission is to:
+
+Move left and right to dodge attacks
+
+Shoot bullets at alien enemies
+
+Avoid incoming projectiles
+
+Destroy the boss octopus alien to win
+
+The boss alien is surrounded by rotating minion enemies, making the battle more challenging.
+
+If the kitty loses all its health, the game ends.
+
+---
+
+#🕹 Controls
 Key	Action
 ⬅ Left Arrow	Move left
 ➡ Right Arrow	Move right
-Space	Fire bullet
-R	Restart game after game over
+Space	Shoot
+R	Restart game
 ESC	Quit game
 
+---
 
-✨ Features
+#✨ Features
 
 Player-controlled kitty spaceship
 
@@ -44,23 +50,21 @@ Boss alien enemy with health bar
 
 Orbiting minion enemies around the boss
 
-Player shooting system
+Bullet shooting system
 
 Enemy projectile attacks
 
-Collision detection system
+Player health system
 
-Health system for both player and enemies
+Explosion animation when boss is defeated
 
 Sound effects and background music
 
-Explosion animation when the boss is defeated
-
 Restartable game system
 
+---
 
-
-🛠 Technologies Used
+#🛠 Technologies Used
 
 Python
 
@@ -68,4 +72,85 @@ Pygame
 
 Object-Oriented Programming
 
-Sprite groups and collision detection
+Sprite-based collision detection
+
+---
+
+#📂 Project Structure
+alien-kitty
+│
+├── alien_kitty.py
+├── settings.py
+├── kitty.py
+├── bullet.py
+├── octo.py
+├── projectiles.py
+│
+├── images/
+│   ├── AlienKitty.png
+│   ├── AlienOctoBig.png
+│   ├── AlienOctoSmall.png
+│   └── blast images
+│
+├── sounds/
+│   ├── bullet.wav
+│   ├── blast.wav
+│   ├── Meow.wav
+│   └── Space.mp3
+│
+└── README.md
+
+---
+
+#⚙️ Installation
+
+Clone the repository:
+
+git clone https://github.com/yourusername/alien-kitty.git
+cd alien-kitty
+
+Install dependencies:
+
+pip install pygame
+▶️ Run the Game
+
+Start the game:
+
+python alien_kitty.py
+🚀 Future Improvements
+
+Possible future improvements include:
+
+Add a scoring system
+
+Add multiple levels or enemy waves
+
+Add power-ups
+
+Add start menu and pause screen
+
+Improve enemy AI behavior
+
+Add particle effects and visual polish
+
+---
+
+#💡 Learning Goals
+
+This project was created to practice:
+
+Python game development
+
+Object-oriented programming
+
+Game loop architecture
+
+Sprite-based collision detection
+
+Modular project design
+
+---
+
+#📜 License
+
+This project is open source and intended for learning and experimentation.
