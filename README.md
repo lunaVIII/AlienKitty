@@ -114,7 +114,7 @@ alien-kitty
 ## ⚙️ Installation
 
 ```
-git clone https://github.com/yourusername/alien-kitty.git
+git clone https://github.com/aksha-khokhra/alien-kitty.git
 cd alien-kitty
 pip install pygame
 ```
