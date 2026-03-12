@@ -77,6 +77,7 @@ Sprite-based collision detection
 ---
 
 # 📂 Project Structure
+```
 alien-kitty
 │
 ├── alien_kitty.py
@@ -87,19 +88,19 @@ alien-kitty
 ├── projectiles.py
 │
 ├── images/
-│ ├── AlienKitty.png
-│ ├── AlienOctoBig.png
-│ ├── AlienOctoSmall.png
-│ └── blast images
+│   ├── AlienKitty.png
+│   ├── AlienOctoBig.png
+│   ├── AlienOctoSmall.png
+│   └── blast images
 │
 ├── sounds/
-│ ├── bullet.wav
-│ ├── blast.wav
-│ ├── Meow.wav
-│ └── Space.mp3
+│   ├── bullet.wav
+│   ├── blast.wav
+│   ├── Meow.wav
+│   └── Space.mp3
 │
 └── README.md
-
+```
 ---
 
 # ⚙️ Installation
