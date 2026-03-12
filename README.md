@@ -1,4 +1,4 @@
-#👽 Alien Kitty
+#Alien Kitty
 <p align="center"> A 2D arcade shooter built with <b>Python</b> and <b>Pygame</b> </p> <p align="center">
 
 
