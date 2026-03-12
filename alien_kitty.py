@@ -80,14 +80,14 @@ class AlienKitty:
 
     def _play_background_music(self):
         """Plays background music indefinitely"""
-        pygame.mixer.music.load('alien_invasion/sounds/Space.mp3')
+        pygame.mixer.music.load('sounds/Space.mp3')
         pygame.mixer.music.set_volume(2.0)  # Adjust volume if needed
         pygame.mixer.music.play(-1)  # Loop indefinitely
     
     def _check_events(self):
         """Respond to key presses and mouse events"""
         for event in pygame.event.get():
-            if event.type == pygame.QUIT:
+            if event.type == pygame.QUIT :
                 pygame.mixer.music.stop()
                 sys.exit()
 
@@ -105,7 +105,7 @@ class AlienKitty:
         elif event.key == pygame.K_LEFT:
             # Move kitty to the left
             self.kitty.moving_left = True
-        elif event.key == pygame.K_ESCAPE:
+        elif event.key in (pygame.K_ESCAPE, pygame.K_q):
             pygame.mixer.music.stop()
             sys.exit()
         elif event.key == pygame.K_r and self.game_over:
@@ -125,7 +125,7 @@ class AlienKitty:
         """Loads and resizes blast images for the animation"""
         self.blast_images = []
         for i in range(1, 4):  # Assuming you have 5 images for the blast sequence
-            image = pygame.image.load(f'alien_invasion/images/blast{i}.png').convert_alpha()
+            image = pygame.image.load(f'images/blast{i}.png').convert_alpha()
             image = pygame.transform.scale(image, self.settings.boss_alien_size)  # Resize image
             self.blast_images.append(image)
 
@@ -201,7 +201,7 @@ class AlienKitty:
 
     def _create_boss_octo(self, x, y):
         """Boss octo creation"""
-        boss_octo = Octo(self, 'alien_invasion/images/AlienOctoBig.png', x, y, octo_type='boss')
+        boss_octo = Octo(self, 'images/AlienOctoBig.png', x, y, octo_type='boss')
         self.octo.add(boss_octo)
         return boss_octo
     
@@ -229,7 +229,7 @@ class AlienKitty:
             x = cx + radius * math.cos(rad_angle)
             y = cy + radius * math.sin(rad_angle)
 
-            new_octo = Octo(self, 'alien_invasion/images/AlienOctoSmall.png', x, y, octo_type='small')
+            new_octo = Octo(self, 'images/AlienOctoSmall.png', x, y, octo_type='small')
             new_octo.angle = angle
             self.octo.add(new_octo)
 

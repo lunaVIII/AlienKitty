@@ -10,7 +10,7 @@ class Kitty:
         self.settings = ak_game.settings
 
         # Load the ship image and get its rectangle
-        self.image = pygame.image.load('alien_invasion/images/AlienKitty.png').convert_alpha()
+        self.image = pygame.image.load('images/AlienKitty.png').convert_alpha()
         self.rect = self.image.get_rect()
 
         # Start each new kitty at the bottom center of the screen

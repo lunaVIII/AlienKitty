@@ -58,6 +58,6 @@ class Settings():
         self.projectile_size = 10
 
         # Music settings
-        self.bullet_sound = pygame.mixer.Sound('alien_invasion/sounds/bullet.wav')
-        self.blast_sound = pygame.mixer.Sound('alien_invasion/sounds/blast.wav')
-        self.kitty_sound = pygame.mixer.Sound('alien_invasion/sounds/Meow.wav')
+        self.bullet_sound = pygame.mixer.Sound('sounds/bullet.wav')
+        self.blast_sound = pygame.mixer.Sound('sounds/blast.wav')
+        self.kitty_sound = pygame.mixer.Sound('sounds/Meow.wav')
