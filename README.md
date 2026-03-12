@@ -7,6 +7,7 @@ The player controls a kitty spaceship that must defeat a powerful boss alien whi
 
 This project demonstrates object-oriented programming, sprite management, collision detection, and game loop design in Python.
 
+
 🎮 Gameplay
 
 In Alien Kitty, the player controls a kitty spaceship positioned at the bottom of the screen.
@@ -25,6 +26,7 @@ Survive until the boss is destroyed
 
 If the kitty loses all health, the game ends. If the boss alien is defeated, you win.
 
+
 🕹 Controls
 Key	Action
 ⬅ Left Arrow	Move left
@@ -32,6 +34,8 @@ Key	Action
 Space	Fire bullet
 R	Restart game after game over
 ESC	Quit game
+
+
 ✨ Features
 
 Player-controlled kitty spaceship
@@ -53,6 +57,8 @@ Sound effects and background music
 Explosion animation when the boss is defeated
 
 Restartable game system
+
+
 
 🛠 Technologies Used
 
