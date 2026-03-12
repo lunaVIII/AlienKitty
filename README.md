@@ -33,17 +33,13 @@ If the kitty loses all its health, the game ends.
 ---
 
 # 🕹 Controls
-Key	Action
-
-⬅ Left Arrow	Move left
-
-➡ Right Arrow	Move right
-
-Space	Shoot
-
-R	Restart game
-
-ESC	Quit game
+| Key | Action |
+|-----|--------|
+| ⬅ Left Arrow | Move left |
+| ➡ Right Arrow | Move right |
+| Space | Shoot |
+| R | Restart game |
+| ESC | Quit game |
 
 ---
 
@@ -115,17 +111,21 @@ alien-kitty
 ```
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
-Clone the repository:
----
+```
 git clone https://github.com/yourusername/alien-kitty.git
 cd alien-kitty
----
-Install dependencies:
----
 pip install pygame
+```
+
 ---
+
+## ▶️ Run the Game
+
+```
+python alien_kitty.py
+```
 
 ---
 
