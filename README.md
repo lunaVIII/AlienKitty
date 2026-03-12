@@ -34,10 +34,15 @@ If the kitty loses all its health, the game ends.
 
 # 🕹 Controls
 Key	Action
+
 ⬅ Left Arrow	Move left
+
 ➡ Right Arrow	Move right
+
 Space	Shoot
+
 R	Restart game
+
 ESC	Quit game
 
 ---
@@ -88,10 +93,17 @@ alien-kitty
 ├── projectiles.py
 │
 ├── images/
+│   ├── Alien.png
+│   ├── AlienKitty.bmp
 │   ├── AlienKitty.png
+│   ├── AlienOcto.png
 │   ├── AlienOctoBig.png
 │   ├── AlienOctoSmall.png
-│   └── blast images
+│   ├── OctoAlien.png
+│   ├── blast1.png
+│   ├── blast2.png
+│   ├── blast3.png
+│   └── ship.bmp
 │
 ├── sounds/
 │   ├── bullet.wav
@@ -106,18 +118,23 @@ alien-kitty
 # ⚙️ Installation
 
 Clone the repository:
-
+---
 git clone https://github.com/yourusername/alien-kitty.git
 cd alien-kitty
-
+---
 Install dependencies:
-
+---
 pip install pygame
-▶️ Run the Game
+---
+
+---
+
+# ▶️ Run the Game
 
 Start the game:
-
+---
 python alien_kitty.py
+---
 
 ---
 
