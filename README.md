@@ -12,7 +12,7 @@ Alien Kitty is a 2D arcade-style shooter where the player controls a space-trave
 
 ---
 
-# 🎮 Gameplay
+## 🎮 Gameplay
 
 You control a kitty spaceship positioned at the bottom of the screen.
 
@@ -32,7 +32,7 @@ If the kitty loses all its health, the game ends.
 
 ---
 
-# 🕹 Controls
+## 🕹 Controls
 | Key | Action |
 |-----|--------|
 | ⬅ Left Arrow | Move left |
@@ -43,7 +43,7 @@ If the kitty loses all its health, the game ends.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 Player-controlled kitty spaceship
 
@@ -65,7 +65,7 @@ Restartable game system
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 Python
 
@@ -77,7 +77,7 @@ Sprite-based collision detection
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 ```
 alien-kitty
 │
@@ -129,16 +129,7 @@ python alien_kitty.py
 
 ---
 
-# ▶️ Run the Game
-
-Start the game:
----
-python alien_kitty.py
----
-
----
-
-# 🚀 Future Improvements
+## 🚀 Future Improvements
 
 Possible future improvements include:
 
@@ -156,7 +147,7 @@ Add particle effects and visual polish
 
 ---
 
-# 💡 Learning Goals
+## 💡 Learning Goals
 
 This project was created to practice:
 
@@ -172,6 +163,6 @@ Modular project design
 
 ---
 
-# 📜 License
+## 📜 License
 
 This project is open source and intended for learning and experimentation.
