@@ -32,7 +32,7 @@ If the kitty loses all its health, the game ends.
 
 ---
 
-#🕹 Controls
+# 🕹 Controls
 Key	Action
 ⬅ Left Arrow	Move left
 ➡ Right Arrow	Move right
@@ -42,7 +42,7 @@ ESC	Quit game
 
 ---
 
-#✨ Features
+# ✨ Features
 
 Player-controlled kitty spaceship
 
@@ -64,7 +64,7 @@ Restartable game system
 
 ---
 
-#🛠 Technologies Used
+# 🛠 Technologies Used
 
 Python
 
@@ -76,7 +76,7 @@ Sprite-based collision detection
 
 ---
 
-#📂 Project Structure
+# 📂 Project Structure
 alien-kitty
 │
 ├── alien_kitty.py
@@ -87,22 +87,22 @@ alien-kitty
 ├── projectiles.py
 │
 ├── images/
-│   ├── AlienKitty.png
-│   ├── AlienOctoBig.png
-│   ├── AlienOctoSmall.png
-│   └── blast images
+│ ├── AlienKitty.png
+│ ├── AlienOctoBig.png
+│ ├── AlienOctoSmall.png
+│ └── blast images
 │
 ├── sounds/
-│   ├── bullet.wav
-│   ├── blast.wav
-│   ├── Meow.wav
-│   └── Space.mp3
+│ ├── bullet.wav
+│ ├── blast.wav
+│ ├── Meow.wav
+│ └── Space.mp3
 │
 └── README.md
 
 ---
 
-#⚙️ Installation
+# ⚙️ Installation
 
 Clone the repository:
 
@@ -117,7 +117,10 @@ pip install pygame
 Start the game:
 
 python alien_kitty.py
-🚀 Future Improvements
+
+---
+
+# 🚀 Future Improvements
 
 Possible future improvements include:
 
@@ -135,7 +138,7 @@ Add particle effects and visual polish
 
 ---
 
-#💡 Learning Goals
+# 💡 Learning Goals
 
 This project was created to practice:
 
@@ -151,6 +154,6 @@ Modular project design
 
 ---
 
-#📜 License
+# 📜 License
 
 This project is open source and intended for learning and experimentation.
