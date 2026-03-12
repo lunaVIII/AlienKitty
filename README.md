@@ -1,4 +1,4 @@
-# Alien Kitty
+# 👽 Alien Kitty
 <p align="center"> A 2D arcade shooter built with <b>Python</b> and <b>Pygame</b> </p> <p align="center">
 
 
@@ -12,7 +12,7 @@ Alien Kitty is a 2D arcade-style shooter where the player controls a space-trave
 
 ---
 
-#🎮 Gameplay
+# 🎮 Gameplay
 
 You control a kitty spaceship positioned at the bottom of the screen.
 
